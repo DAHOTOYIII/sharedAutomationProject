@@ -14,3 +14,7 @@ class API:
         response = requests.request("POST", self.url, headers=self.headers, data=self.payload)
         result = json.loads(response.text)
         return result
+
+    def simplePut(self):
+        result =''
+        return result
