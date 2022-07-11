@@ -18,3 +18,11 @@ class API:
     def simplePut(self):
         result =''
         return result
+
+class Auth:
+    def __int__(self):
+        pass
+    def apiKeyAuth(self):
+        pass
+    def userAuth(self):
+        pass
